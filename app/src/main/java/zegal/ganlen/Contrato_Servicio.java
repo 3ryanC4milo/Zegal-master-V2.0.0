@@ -43,7 +43,7 @@ public class Contrato_Servicio extends AppCompatActivity {
 
     private static final int PAYPAL_REQUEST_CODE = 7171;
     //Esta variable es para jalar la cuenta de prueba para testeo, se requerira cambiar valores despues de las respectivas pruebas
-    private static PayPalConfiguration config = new PayPalConfiguration().environment(PayPalConfiguration.ENVIRONMENT_PRODUCTION)
+    private static PayPalConfiguration config = new PayPalConfiguration().environment(PayPalConfiguration.ENVIRONMENT_SANDBOX)
             .clientId(Config.PAYPAL_CLIENT_ID);
 
     EditText recibe, presta, finalidad, monto, parcial;
